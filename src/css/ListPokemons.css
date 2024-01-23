@@ -1,0 +1,107 @@
+.right-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Center the cards horizontally */
+}
+
+.selectedCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  position: relative;
+  border: 3px solid #ccc;
+  box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.7);
+}
+
+.newCard {
+  border: 3px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newCard:hover {
+  box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.7);
+}
+
+.newCard button {
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  margin: unset;
+}
+
+.newCard p {
+  position: absolute;
+  bottom: 80px;
+}
+
+.newCard .stat {
+  font-size: 70%;
+}
+
+.selectedcardStat,
+.cardStat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.selectedcardStat {
+  position: relative;
+  
+  margin: 0 10px;
+}
+
+.selectedCard p {
+  position: relative;
+  padding: 30px;
+  font-size: 120%;
+  
+}
+
+.selectedImgDiv {
+  width: 100%;
+  height: 180px;
+  
+}
+
+.selectedImgDiv img {
+  max-width: 250px;
+  height: 178px;
+}
+
+.cardStat {
+  position: absolute;
+  bottom: 45px;
+  margin: 0 5px;
+}
+
+
+
+.imgDiv img {
+  max-width: 150px;
+  height: 110px;
+  font-size: 70%;
+}
+
+.imgDiv {
+  width: 100%;
+  height: 110px;
+}
+
+button {
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
