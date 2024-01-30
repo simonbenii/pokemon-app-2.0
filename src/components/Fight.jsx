@@ -80,7 +80,7 @@ function Fight({ ownPokemon, enemyPokemon, resetButton, catchPokemon }) {
 
   return (
     <div>
-      
+
       {winner ? (
         <div>
           <h1>{ownPokeHP > 0 ? 'You win' : 'You lose'}</h1>
@@ -110,8 +110,6 @@ function Fight({ ownPokemon, enemyPokemon, resetButton, catchPokemon }) {
             {ownPokeHP > 0 ? (
               <>
                 <img src={Pokeball} alt="Pokeball" />
-                <p>Catch {enemyPokeStat.name}</p>
-                <img src={enemyPokeStat.sprites.front_default} alt="defeated pokemon" className="defeatedPokemon"/>
               </>
             ) : (
               'Back to Areas'
@@ -185,7 +183,7 @@ function Fight({ ownPokemon, enemyPokemon, resetButton, catchPokemon }) {
         </>
       )}
     </div>
-    
+
   );
 }
 

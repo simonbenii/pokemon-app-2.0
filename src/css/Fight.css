@@ -55,13 +55,12 @@
 
 button img {
   width: auto;
-  height: 50px;
+  height: 100px;
   padding: 10px;
 }
 
 .win {
   background: none;
-  border: 1px solid white;
   color: white;
   padding: 5px;
   display: flex;
@@ -135,7 +134,7 @@ button img {
   margin: 20px 0;
 }
 
-.winnerCard > p {
+.winnerCard>p {
   font-size: 150%;
 }
 
