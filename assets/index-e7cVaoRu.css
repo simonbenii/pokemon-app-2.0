@@ -133,7 +133,7 @@ button {
 }
 
 .fightComponent {
-  background-image: url(/pokemon-app-2.0/assets/arena_bg-or5S-ZMY.png);
+  background-image: url(/pokemon-app-2.0//arena_bg-or5S-ZMY.png);
   opacity: .3;
   background-color: #000;
   background-size: cover;
@@ -185,12 +185,13 @@ button {
 
 button img {
   width: auto;
-  height: 100px;
+  height: 50px;
   padding: 10px
 }
 
 .win {
   background: none;
+  border: 1px solid white;
   color: #fff;
   padding: 5px;
   display: flex;
@@ -286,7 +287,7 @@ button img {
   flex-direction: column
 }
 
-.startFight:hover {
+.startFight:hover:not(:disabled) {
   background-color: red;
   box-shadow: 3px 3px 20px #ff0000d7
 }
@@ -339,6 +340,15 @@ h2 {
 button {
   background-color: #f0f8ff;
   color: #242424
+}
+
+button:hover:not(:disabled) {
+  background-color: #c8cbcd
+}
+
+button:disabled {
+  background-color: #fefefe23;
+  cursor: default
 }
 
 .left-parent {
