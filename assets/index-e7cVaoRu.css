@@ -133,7 +133,7 @@ button {
 }
 
 .fightComponent {
-  background-image: url(/pokemon-app-2.0//arena_bg-or5S-ZMY.png);
+  background-image: url(/pokemon-app-2.0/assets/arena_bg-or5S-ZMY.png);
   opacity: .3;
   background-color: #000;
   background-size: cover;
