@@ -55,12 +55,13 @@
 
 button img {
   width: auto;
-  height: 100px;
+  height: 50px;
   padding: 10px;
 }
 
 .win {
   background: none;
+  border: 1px solid white;
   color: white;
   padding: 5px;
   display: flex;
@@ -159,7 +160,7 @@ button img {
   flex-direction: column;
 }
 
-.startFight:hover {
+.startFight:hover:not(:disabled) {
   background-color: red;
   box-shadow: 3px 3px 20px rgba(255, 0, 0, 0.845);
 }

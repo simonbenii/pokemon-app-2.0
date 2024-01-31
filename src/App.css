@@ -24,8 +24,17 @@ h2 {
 }
 
 button {
-  background-color:aliceblue;
+  background-color: aliceblue;
   color: #242424
+}
+
+button:hover:not(:disabled) {
+  background-color: rgb(200, 203, 205);
+}
+
+button:disabled {
+  background-color: #fefefe23;
+  cursor: default;
 }
 
 .left-parent {
@@ -166,10 +175,6 @@ button {
   flex-direction: column;
   align-items: center;
 }
-
-
-
-
 
 /* Media Queries */
 
